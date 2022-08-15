@@ -9,13 +9,7 @@ namespace LeetCode_Problems
 
     public class RomanToInt
     {
-        static void Main()
-        {
-            Console.WriteLine("Enter Roman Number: ");
-            string romanNumber = Console.ReadLine();
-            var num = RomToInt(romanNumber);
-            Console.WriteLine(num);
-        }
+        public static RomanToInt romtoint { get; set; }
 
         private static object RomToInt(string? s)
         {
