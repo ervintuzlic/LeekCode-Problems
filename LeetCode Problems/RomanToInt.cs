@@ -31,12 +31,7 @@ namespace LeetCode_Problems
 
             var solution = 0;
 
-            s = s.Replace("IV", "IIII"); //4
-            s.Replace("IX", "VIIII"); //9
-            s.Replace("XL", "XXXX"); //40
-            s.Replace("XC", "LXXXX"); //90
-            s.Replace("CD", "CCCC"); // 400
-            s.Replace("CM", "DCCCC"); // 900
+            s = s.Replace("IV", "IIII").Replace("IX", "VIIII").Replace("XL", "XXXX").Replace("XC", "LXXXX").Replace("CD", "CCCC").Replace("CM", "DCCCC");
 
             foreach (char c in s)
             {
