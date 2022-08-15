@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace LeetCode_Problems
 {
-    void static Main()
-    {
-
-    }
 
     public class RomanToInt
     {
-        int RomToInt(string s)
+        static void Main()
+        {
+            Console.WriteLine("Enter Roman Number: ");
+            string romanNumber = Console.ReadLine();
+            var num = RomToInt(romanNumber);
+            Console.WriteLine(num);
+        }
+
+        private static object RomToInt(string? s)
         {
             var dictionary = new Dictionary<char, int>();
 
