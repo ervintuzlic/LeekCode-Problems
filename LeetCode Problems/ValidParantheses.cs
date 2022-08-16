@@ -45,14 +45,14 @@ namespace LeetCode_Problems
 
     public class Program2
     {
-        static void Main()
-        {
-            Console.WriteLine("Input brackets: ");
-            string name = Console.ReadLine();
-            if (ValidParantheses.IsValid(name))
-                Console.WriteLine("true");
-            else
-            Console.WriteLine("false");
-        }
+        //static void Main()
+        //{
+        //    Console.WriteLine("Input brackets: ");
+        //    string name = Console.ReadLine();
+        //    if (ValidParantheses.IsValid(name))
+        //        Console.WriteLine("true");
+        //    else
+        //    Console.WriteLine("false");
+        //}
     }
 }
