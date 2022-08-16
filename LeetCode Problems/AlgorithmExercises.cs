@@ -27,20 +27,46 @@ namespace LeetCode_Problems
     // Write a C# Sharp program to create a new string which is 4 copies of the 2 front characters of a given string. 
     // If the given string length is less than 2 return the original string.
 
+    //public class Problem
+    //{
+    //    static void Main() { 
+    //        Console.WriteLine("Input string: ");
+
+    //        string myStr = Console.ReadLine();
+
+    //        if (myStr.Length < 2)
+    //            Console.WriteLine(myStr);
+    //        else
+    //        {
+    //            string newStr = myStr.Substring(0, 2);
+    //            Console.WriteLine(newStr + newStr + newStr + newStr);
+    //        }
+    //    } 
+    //}
+
+
+
+    // 3.
+    // Write a C# Sharp program to check if two or more non-negative given integers have the same rightmost digit
+
     public class Problem
     {
-        static void Main() { 
-            Console.WriteLine("Input string: ");
-            
-            string myStr = Console.ReadLine();
+        static void Main()
+        {
+            Console.WriteLine("Input two numbers:");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+            int z = Convert.ToInt32(Console.ReadLine());
 
-            if (myStr.Length < 2)
-                Console.WriteLine(myStr);
+
+            int x1 = x % 10;
+            int y1 = y % 10;
+            int z1 = z % 10;
+
+            if (x1 == y1 || y1 == z1 || x1 == z1 )
+                Console.WriteLine("true");
             else
-            {
-                string newStr = myStr.Substring(0, 2);
-                Console.WriteLine(newStr + newStr + newStr + newStr);
-            }
-        } 
+                Console.WriteLine("false");
+        }
     }
 }
