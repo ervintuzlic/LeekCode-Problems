@@ -31,13 +31,13 @@ public class PalindromeClass {
 
 public class Program
     {
-        static void Main()
-        {
-            Console.WriteLine("Input a number: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            if (PalindromeClass.IsPalindrome(number))
-                Console.WriteLine("true");
-            Console.WriteLine("false");
-        }
+        //static void Main()
+        //{
+        //    Console.WriteLine("Input a number: ");
+        //    int number = Convert.ToInt32(Console.ReadLine());
+        //    if (PalindromeClass.IsPalindrome(number))
+        //        Console.WriteLine("true");
+        //    Console.WriteLine("false");
+        //}
     }
 }
