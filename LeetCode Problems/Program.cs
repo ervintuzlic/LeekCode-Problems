@@ -11,7 +11,6 @@ public class PalindromeClass {
     {
         int a = 0;
             int counter = x.ToString().Length;
-
             int broj = x;
 
             if (x < 0)
