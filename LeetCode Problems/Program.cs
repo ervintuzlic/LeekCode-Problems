@@ -21,7 +21,8 @@ public class PalindromeClass {
             a = a * 10 + (x % 10); // 323 323/10= 32.3
             x /= 10;
             --counter;
-        } while (counter > 0);
+
+            } while (counter > 0);
         if (a == broj)
             return true;
         return false;
