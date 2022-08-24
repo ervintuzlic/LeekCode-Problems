@@ -10,8 +10,9 @@ public class PalindromeClass {
     public static bool IsPalindrome(int x)
     {
         int a = 0;
-        int counter = x.ToString().Length;
-        int broj = x;
+            int counter = x.ToString().Length;
+
+            int broj = x;
 
             if (x < 0)
                 return false;
